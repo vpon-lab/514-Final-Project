@@ -4,7 +4,8 @@
 ### System Overview 
 A two-piece set of blocks set apart to measure the space in between them. Essentially measuring a distance from point A to point B. One block is a stationary reference point while the other provides a measurement reading for the user.  
 
-[insert sketch here]
+![General Sketch](General_sketch.png)
+*Plastic film cover encasing the sensor and physical visual with needle gauge, handle for ergonomics*
 
 ## Sensor Device - Sensor Block
 The sensor will be the piece to sit stationary via battery powered. It uses a Time of Flight laser distance sensor to detect how long it takes for the light to reflect back to the sensor from the display device. Online research suggests the Kalman Filter to remove "jitter" from laser data-- implement via process noise and measurement noise parameters. 
