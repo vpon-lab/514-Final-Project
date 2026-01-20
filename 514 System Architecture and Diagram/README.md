@@ -16,6 +16,7 @@ The sensor will be the piece to sit stationary via battery powered. It uses a Ti
 The display device via battery powered, has a reflector that the sensors' light emitter will bounce off of. A button has two actions- one-click to start the measurement and one-click to "tare" or hold the reading. The stepper maps the distance to a range, turning the sensors measurements into physical dial gauge readings. 
 
 ![Sketch of of Display Block](Display_sketch.png)
+*LED will be included (not shown) used to indicate if measurement is on process*
 
 
 ## Communication & System Diagram 
