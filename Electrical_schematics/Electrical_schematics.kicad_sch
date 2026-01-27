@@ -10,6 +10,7 @@
 		(comment 1 "Sensing Device")
 		(comment 2 "Display Device")
 		(comment 3 "Veronika Sermeno Pon")
+		(comment 4 "TECHIN 514")
 	)
 	(lib_symbols
 		(symbol "514_symbols:VL53L4CX"
