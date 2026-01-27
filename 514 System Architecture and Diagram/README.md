@@ -24,12 +24,10 @@ The display device via battery powered, has a reflector that the sensors' light 
 ### Key Parts 
 * MCU: ESP32C3
 * Sensor: VL53L4CX
+* Display: Stepper-motor physical display (given in class, datasheet unkown)
 * Push Button 
 * LED 
-* Stepper-motor physical display (given in class, datasheet unkown)
-* Battery 5V
-* Battery 3V
-
+* Battery (voltage to be determined) x 2
 
 ## Communication & System Diagram 
 The Sensor Block is stationary. The Device Block gets moved to desired location ensuring sufficient visibility between sensor and reflector. Device block triggers measurement sequence, sensor emits pulse of laser light, light bounces off reflector and comes back to sensor, calculation for "time of flight" processes and sent back to Display Block. 
