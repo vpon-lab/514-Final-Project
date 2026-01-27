@@ -1,23 +1,34 @@
 # System Architecture with Diagram 
 
-## Two-piece measuring tape- Digital Protractor 
+## Wireless Tapemeasurer 
 ### System Overview 
 A two-piece set of blocks set apart to measure the space in between them. Essentially measuring a distance from point A to point B. One block is a stationary reference point while the other provides a measurement reading for the user.  
 
 ![General Sketch](General_sketch.png)
+
 *Plastic film cover encasing the sensor and physical visual with needle gauge, handle for ergonomics*
 
 ## Sensor Device - Sensor Block
-The sensor will be the piece to sit stationary via battery powered. It uses a Time of Flight laser distance sensor to detect how long it takes for the light to reflect back to the sensor from the display device. Online research suggests the Kalman Filter to remove "jitter" from laser data-- implement via process noise and measurement noise parameters. 
+The sensor will be the piece to sit stationary via battery powered. It uses a Time of Flight laser distance sensor (VL53L4CX) to detect how long it takes for the light to reflect back to the sensor from the display device. Online research suggests the Kalman Filter to remove "jitter" from laser data-- implement via process noise and measurement noise parameters. 
 
 ![Sketch of Sensor Block](Sensor_sketch.png)
 
 
 ## Display Device - Device Block
-The display device via battery powered, has a reflector that the sensors' light emitter will bounce off of. A button has two actions- one-click to start the measurement and one-click to "tare" or hold the reading. The stepper maps the distance to a range, turning the sensors measurements into physical dial gauge readings. 
+The display device via battery powered, has a reflector that the sensors' light emitter will bounce off of. A button has two actions- one-click to start the measurement and one-click to "tare" or hold the reading. The stepper maps the distance to a range (0m to a max of 6m), turning the sensors measurements into physical dial gauge readings. 
 
 ![Sketch of of Display Block](Display_sketch.png)
+
 *LED will be included (not shown) used to indicate if measurement is on process*
+
+### Key Parts 
+* MCU: ESP32C3
+* Sensor: VL53L4CX
+* Push Button 
+* LED 
+* Stepper-motor physical display (given in class, datasheet unkown)
+* Battery 5V
+* Battery 3V
 
 
 ## Communication & System Diagram 
