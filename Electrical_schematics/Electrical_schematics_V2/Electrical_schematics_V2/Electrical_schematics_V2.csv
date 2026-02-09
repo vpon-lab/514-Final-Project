@@ -1,0 +1,8 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","D1","1","GREEN","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"2","JP1","1","HEADER-1X670MIL","Adafruit VL53L4CX:1X06_ROUND_70",""
+"3","R2, R3","2","10K","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"4","R4","1","3.6K","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"5","SW2","1","SW_Push","Button_Switch_SMD:SW_SPST_TL3342",""
+"6","U1","1","VL53L4CXV0DH_1","Myfootprints:XCDR_VL53L4CXV0DH_1",""
+"7","U6","1","XIAO ESP32C3","Myfootprints:XIAO_ESP32",""

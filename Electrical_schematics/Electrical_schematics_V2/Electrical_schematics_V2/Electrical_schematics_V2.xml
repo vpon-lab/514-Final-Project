@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\pon45\OneDrive\Documents\514\514 Final Project\Electrical_schematics\Electrical_schematics_V2\Electrical_schematics_V2\Electrical_schematics_V2.kicad_sch</source>
+    <date>2026-02-04T23:47:03-0800</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Sensing Device Schematics (ToF Sensor)</title>
+        <company>TECHIN 514</company>
+        <rev>2</rev>
+        <date>2026-02-04</date>
+        <source>Electrical_schematics_V2.kicad_sch</source>
+        <comment number="1" value="Veronika Sermeno Pon"/>
+        <comment number="2" value="Final Project Schematics"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adafruit VL53L4CX-eagle-import" part="LED0603_NOOUTLINE" description="LED&#xA;&#xA;0603 - 0603 Surface Mount Package&#xA;&#xA;2mA:&#xA;&#xA;• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND&#xA;• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND&#xA;• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND&#xA;• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND&#xA;&#xA;5mA:&#xA;&#xA;• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND&#xA;&#xA;0805 - 0805 Surface Mount Package&#xA;&#xA;2mA:&#xA;&#xA;• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]&#xA;• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]&#xA;• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]&#xA;&#xA;20mA:&#xA;&#xA;• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]&#xA;• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]&#xA;• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]&#xA;• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]&#xA;&#xA;• 1206 - 1206 Surface Mount Package&#xA;&#xA;• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]&#xA;• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]&#xA;&#xA;• Cree - Cree High-Power Surface Mount LEDs&#xA;&#xA;• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°&#xA;• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°&#xA;&#xA;• Everlight - Everlight 45-21 Series Surface Mount LEDs&#xA;&#xA;• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°&#xA;• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°&#xA;• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°&#xA;&#xA;• PLCC2 Reverse Mount&#xA;&#xA;• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°&#xA;• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°&#xA;• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59dac486-bf04-4302-be53-800a0bc2fb1a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>HEADER-1X670MIL</value>
+      <footprint>Adafruit VL53L4CX:1X06_ROUND_70</footprint>
+      <fields>
+        <field name="Footprint">Adafruit VL53L4CX:1X06_ROUND_70</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adafruit VL53L4CX-eagle-import" part="HEADER-1X670MIL" description="PIN HEADER"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca08696a-8835-4c2f-aa82-8b59c1951a98</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adafruit VL53L4CX-eagle-import" part="RESISTOR_0603_NOOUT" description="Resistors&#xA;&#xA;For new designs, use the packages preceded by an '_' character since they are more reliable:&#xA;&#xA;The following footprints should be used on most boards:&#xA;&#xA;• _0402 - Standard footprint for regular board layouts&#xA;• _0603 - Standard footprint for regular board layouts&#xA;• _0805 - Standard footprint for regular board layouts&#xA;• _1206 - Standard footprint for regular board layouts&#xA;&#xA;For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):&#xA;&#xA;• _0402MP - Micro-pitch footprint for very dense/compact boards&#xA;• _0603MP - Micro-pitch footprint for very dense/compact boards&#xA;• _0805MP - Micro-pitch footprint for very dense/compact boards&#xA;• _1206MP - Micro-pitch footprint for very dense/compact boards"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9b3cd6e-d59c-43a7-8c2f-c4a6ea7ab1de</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adafruit VL53L4CX-eagle-import" part="RESISTOR_0603_NOOUT" description="Resistors&#xA;&#xA;For new designs, use the packages preceded by an '_' character since they are more reliable:&#xA;&#xA;The following footprints should be used on most boards:&#xA;&#xA;• _0402 - Standard footprint for regular board layouts&#xA;• _0603 - Standard footprint for regular board layouts&#xA;• _0805 - Standard footprint for regular board layouts&#xA;• _1206 - Standard footprint for regular board layouts&#xA;&#xA;For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):&#xA;&#xA;• _0402MP - Micro-pitch footprint for very dense/compact boards&#xA;• _0603MP - Micro-pitch footprint for very dense/compact boards&#xA;• _0805MP - Micro-pitch footprint for very dense/compact boards&#xA;• _1206MP - Micro-pitch footprint for very dense/compact boards"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c00f874b-5c5f-47fb-8e99-e9f5b15b9f1b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>3.6K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adafruit VL53L4CX-eagle-import" part="RESISTOR_4PACK" description="Resistor Packs (4 resistors)&#xA;&#xA;4 x 0603&#xA;&#xA;• 10K 1/16W - Digikey: YC164J-10KCT-ND"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d339acf7-9ce4-42b7-8406-f00e39523efd d133f92f-bb46-448f-aa8e-39daa5df1c88</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e08e8849-6d6c-4589-b96d-7b9cd82d0114</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>VL53L4CXV0DH_1</value>
+      <footprint>Myfootprints:XCDR_VL53L4CXV0DH_1</footprint>
+      <fields>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SNAPEDA_PN">VL53L4CXV0DH/1</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.05mm</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="Footprint">Myfootprints:XCDR_VL53L4CXV0DH_1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VL53L4CXV0DH_1" part="VL53L4CXV0DH_1" description=""/>
+      <property name="PARTREV" value="4"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="SNAPEDA_PN" value="VL53L4CXV0DH/1"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.05mm"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6643d8d7-4403-471c-bc83-1b67a0abb221</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>XIAO ESP32C3</value>
+      <footprint>Myfootprints:XIAO_ESP32</footprint>
+      <fields>
+        <field name="DigiKey_Part_Number">1597-113991054-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=snap</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="MF">Seeed Technology Co., Ltd</field>
+        <field name="MP">113991054</field>
+        <field name="Description_1">- ESP32-C3 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz Evaluation Board</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="Footprint">Myfootprints:XIAO_ESP32</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="XIAOESP32C3" part="113991054" description=""/>
+      <property name="DigiKey_Part_Number" value="1597-113991054-ND"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=snap"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="23/05/2022"/>
+      <property name="MF" value="Seeed Technology Co., Ltd"/>
+      <property name="MP" value="113991054"/>
+      <property name="Description_1" value="- ESP32-C3 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz Evaluation Board"/>
+      <property name="SNAPEDA_PN" value="113991054"/>
+      <property name="MANUFACTURER" value="Seeed Technology"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Electrical_schematics_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd03f79b-c619-4a7a-888a-45ba17abef19</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit VL53L4CX-eagle-import" part="HEADER-1X670MIL">
+      <description>PIN HEADER</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value"/>
+        <field name="Footprint">Adafruit VL53L4CX:1X06_ROUND_70</field>
+        <field name="Datasheet"/>
+        <field name="Description">PIN HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit VL53L4CX-eagle-import" part="LED0603_NOOUTLINE">
+      <description>LED
+
+0603 - 0603 Surface Mount Package
+
+2mA:
+
+• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND
+• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND
+• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND
+• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND
+
+5mA:
+
+• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND
+
+0805 - 0805 Surface Mount Package
+
+2mA:
+
+• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]
+• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]
+• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]
+
+20mA:
+
+• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]
+• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]
+• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]
+• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]
+
+• 1206 - 1206 Surface Mount Package
+
+• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]
+• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]
+
+• Cree - Cree High-Power Surface Mount LEDs
+
+• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°
+• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°
+
+• Everlight - Everlight 45-21 Series Surface Mount LEDs
+
+• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°
+• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°
+• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°
+
+• PLCC2 Reverse Mount
+
+• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°
+• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°
+• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value"/>
+        <field name="Footprint">Adafruit VL53L4CX:CHIPLED_0603_NOOUTLINE</field>
+        <field name="Datasheet"/>
+        <field name="Description">LED
+
+0603 - 0603 Surface Mount Package
+
+2mA:
+
+• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND
+• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND
+• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND
+• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND
+
+5mA:
+
+• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND
+
+0805 - 0805 Surface Mount Package
+
+2mA:
+
+• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]
+• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]
+• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]
+
+20mA:
+
+• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]
+• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]
+• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]
+• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]
+
+• 1206 - 1206 Surface Mount Package
+
+• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]
+• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]
+
+• Cree - Cree High-Power Surface Mount LEDs
+
+• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°
+• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°
+
+• Everlight - Everlight 45-21 Series Surface Mount LEDs
+
+• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°
+• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°
+• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°
+
+• PLCC2 Reverse Mount
+
+• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°
+• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°
+• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit VL53L4CX-eagle-import" part="RESISTOR_0603_NOOUT">
+      <description>Resistors
+
+For new designs, use the packages preceded by an '_' character since they are more reliable:
+
+The following footprints should be used on most boards:
+
+• _0402 - Standard footprint for regular board layouts
+• _0603 - Standard footprint for regular board layouts
+• _0805 - Standard footprint for regular board layouts
+• _1206 - Standard footprint for regular board layouts
+
+For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):
+
+• _0402MP - Micro-pitch footprint for very dense/compact boards
+• _0603MP - Micro-pitch footprint for very dense/compact boards
+• _0805MP - Micro-pitch footprint for very dense/compact boards
+• _1206MP - Micro-pitch footprint for very dense/compact boards</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value"/>
+        <field name="Footprint">Adafruit VL53L4CX:0603-NO</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistors
+
+For new designs, use the packages preceded by an '_' character since they are more reliable:
+
+The following footprints should be used on most boards:
+
+• _0402 - Standard footprint for regular board layouts
+• _0603 - Standard footprint for regular board layouts
+• _0805 - Standard footprint for regular board layouts
+• _1206 - Standard footprint for regular board layouts
+
+For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):
+
+• _0402MP - Micro-pitch footprint for very dense/compact boards
+• _0603MP - Micro-pitch footprint for very dense/compact boards
+• _0805MP - Micro-pitch footprint for very dense/compact boards
+• _1206MP - Micro-pitch footprint for very dense/compact boards</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit VL53L4CX-eagle-import" part="RESISTOR_4PACK">
+      <description>Resistor Packs (4 resistors)
+
+4 x 0603
+
+• 10K 1/16W - Digikey: YC164J-10KCT-ND</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value"/>
+        <field name="Footprint">Adafruit VL53L4CX:RESPACK_4X0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor Packs (4 resistors)
+
+4 x 0603
+
+• 10K 1/16W - Digikey: YC164J-10KCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VL53L4CXV0DH_1" part="VL53L4CXV0DH_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VL53L4CXV0DH_1</field>
+        <field name="Footprint">VL53L4CXV0DH_1:XCDR_VL53L4CXV0DH_1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SNAPEDA_PN">VL53L4CXV0DH/1</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.05mm</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDDVCSEL" type="power_in"/>
+        <pin num="2" name="AVSSVCSEL" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND2" type="power_in"/>
+        <pin num="5" name="XSHUT" type="input"/>
+        <pin num="6" name="GND3" type="power_in"/>
+        <pin num="7" name="GPIO1" type="output"/>
+        <pin num="8" name="DNC" type="no_connect"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="AVDD" type="power_in"/>
+        <pin num="12" name="GND4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="XIAOESP32C3" part="113991054">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">113991054</field>
+        <field name="Footprint">113991054:MODULE_113991054</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="DigiKey_Part_Number">1597-113991054-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=snap</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="MF">Seeed Technology Co., Ltd</field>
+        <field name="MP">113991054</field>
+        <field name="Description_1">- ESP32-C3 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz Evaluation Board</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0" type="bidirectional"/>
+        <pin num="2" name="D1" type="bidirectional"/>
+        <pin num="3" name="D2" type="bidirectional"/>
+        <pin num="4" name="D3" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="D5" type="bidirectional"/>
+        <pin num="7" name="TX_D6" type="bidirectional"/>
+        <pin num="8" name="RX_D7" type="bidirectional"/>
+        <pin num="9" name="D8" type="bidirectional"/>
+        <pin num="10" name="D9" type="bidirectional"/>
+        <pin num="11" name="D10" type="bidirectional"/>
+        <pin num="12" name="VCC_3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VUSB" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="VL53L4CXV0DH_1">
+      <uri>C:/Users/pon45/OneDrive/Documents/514/514 Final Project/Electrical_schematics/VL53L4CXV0DH_1/VL53L4CXV0DH_1.kicad_sym</uri>
+    </library>
+    <library logical="XIAOESP32C3">
+      <uri>C:/Users/pon45/OneDrive/Documents/514/113991054/XIAOESP32C3.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GPIO" class="Default">
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="2" name="/SCL" class="Default">
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="8" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/SDA" class="Default">
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R4" pin="6" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/XSHUT" class="Default">
+      <node ref="JP1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="5" name="/XSHUT_2.8V" class="Default">
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="XSHUT" pintype="input"/>
+    </net>
+    <net code="6" name="3.3V" class="Default">
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="AVDDVCSEL" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="7" name="GND" class="Default">
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="AVSSVCSEL" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(D1-PadA)" class="Default">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(U6-VCC_3V3)" class="Default">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="VCC_3V3" pintype="power_in"/>
+    </net>
+    <net code="10" name="VCC" class="Default">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(U1-DNC-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-GPIO1-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="GPIO1" pintype="output+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U6-D0-Pad1)" class="Default">
+      <node ref="U6" pin="1" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="unconnected-(U6-D1-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(U6-D2-Pad3)" class="Default">
+      <node ref="U6" pin="3" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U6-D3-Pad4)" class="Default">
+      <node ref="U6" pin="4" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U6-D8-Pad9)" class="Default">
+      <node ref="U6" pin="9" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U6-D9-Pad10)" class="Default">
+      <node ref="U6" pin="10" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(U6-D10-Pad11)" class="Default">
+      <node ref="U6" pin="11" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U6-RX_D7-Pad8)" class="Default">
+      <node ref="U6" pin="8" pinfunction="RX_D7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U6-TX_D6-Pad7)" class="Default">
+      <node ref="U6" pin="7" pinfunction="TX_D6" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(U6-VUSB-Pad14)" class="Default">
+      <node ref="U6" pin="14" pinfunction="VUSB" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
