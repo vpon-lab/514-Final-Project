@@ -3669,15 +3669,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit VL53L4CX-eagle-import:VCC")
+		(lib_id "Adafruit VL53L4CX-eagle-import:2.8V")
 		(at 173.99 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c83c89a-fd70-43da-bbe2-5e760584158d")
-		(property "Reference" "#P+03"
+		(uuid "8f830d59-21a6-4477-ba12-204e9d1ff6d3")
+		(property "Reference" "#U$01"
 			(at 173.99 193.04 0)
 			(effects
 				(font
@@ -3686,11 +3686,11 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 171.45 195.58 90)
+		(property "Value" "3.3V"
+			(at 172.466 192.024 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.0795)
 				)
 				(justify left bottom)
 			)
@@ -3723,12 +3723,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d3442e3-b33c-4836-b29c-1d529e1aa245")
+			(uuid "82bfe810-34a7-4a29-87d1-4daabe3add52")
 		)
 		(instances
-			(project "Electrical_schematics"
+			(project "Electrical_schematics_V2"
 				(path "/3dd2c12c-1a32-422a-803d-8f2ed5a6c585"
-					(reference "#P+03")
+					(reference "#U$01")
 					(unit 1)
 				)
 			)
