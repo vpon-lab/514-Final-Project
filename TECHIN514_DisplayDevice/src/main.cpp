@@ -4,6 +4,7 @@
 // This code was developed with Claude AI
 
 #define PIN_BUTTON D8
+#define LED D10
 
 SwitecX25 motor(600, D1, D0, D3, D2);
 
