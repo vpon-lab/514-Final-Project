@@ -1,0 +1,8 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","BT1","1","Battery_Cell","Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",""
+"2","D1","1","LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"3","M1","1","Stepper_Motor_bipolar","Myfootprints:x27_stepper",""
+"4","R1","1","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"5","SW1","1","SW_Push","Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm",""
+"6","SW2","1","SW_SPDT","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
+"7","U1","1","~","Myfootprints:XIAO_ESP32",""
